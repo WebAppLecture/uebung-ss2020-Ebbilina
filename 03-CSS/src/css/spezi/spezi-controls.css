@@ -1,0 +1,46 @@
+.controls > *,
+.skin-change > div {
+    
+    background: darkgreen 60%;
+    text-align: center;
+    text-shadow: 2vh, 2vh, 3vh, blue;
+    color: rgb(221, 174, 21);
+    
+}
+
+.reset {
+    right: 5vh;
+    top: 2vh;
+    transform: rotate(20deg);
+    border-radius: 2vh;
+    
+}
+.controls > *{
+    font-size: 3vh;
+}
+.skin-change > div {
+    margin-left: 3vh;
+    margin-bottom: 3vh;
+    
+}
+.d-pad {
+    background: linear-gradient(0deg,
+    black 0%,
+    seagreen 30%,
+    darkgreen 60%,
+    black 100%);
+    border-radius: 2vh;
+    border-bottom-left-radius: 60% 75%;
+    border-bottom-right-radius: 60% 75%;
+    border-top-right-radius: 60% 75%;
+    border-top-left-radius: 60% 75%;
+    font-size: 6vh;
+}
+.big-button{
+    border-radius: 0%;
+    font-size: 6vh;
+    transform: rotate(45deg);
+}
+.big-button:hover{
+    transform: rotate(-45deg);
+}
