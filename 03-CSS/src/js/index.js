@@ -9,4 +9,3 @@ document.querySelector(".next").addEventListener("click", () => skinChanger.next
 document.querySelector(".previous").addEventListener("click", () => skinChanger.previous());
 
 skinChanger.activeSkin = "gold";
-
