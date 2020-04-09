@@ -17,7 +17,6 @@ export class MyMath {
         // mit 'value * 1' erzwingen wir, dass value als number gelesen wird.
         this.value = value * 1; 
     }
-
     
     add(value) {
         this.value+=value

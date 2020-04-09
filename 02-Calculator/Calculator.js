@@ -71,7 +71,6 @@ export class Calculator {
     }
 
     printSolution(string) {
-
         //jeweilige Wert der Instanz #solution textarea angezeigt
     }
 
