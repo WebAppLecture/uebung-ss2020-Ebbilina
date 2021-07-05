@@ -17,28 +17,48 @@ export class MyMath {
         // mit 'value * 1' erzwingen wir, dass value als number gelesen wird.
         this.value = value * 1; 
     }
-
+    
     add(value) {
-
+        this.value+=value
+       // return this.value
+        return this
     }
 
     subtract(value) {
-
+        this.value-=value
+       // return this.value
+        return this
     }
 
     multiply(value) {
-
+        this.value*=value
+        return this
     }
 
     divide(value) {
-
+        if(value!==0){
+        this.value/=value
+        }
+        return this
     }
 
     pow(value) {
-
+        if(value>0){
+            let a = this.value;
+            for(let i = 0;i < value; i++)
+            {this.value*=a}
+        }
+        return this
     }
 
     faculty() {
-
+        let n = this.value
+        if(n % 1 === 0){
+            for (let index = n-1; index >0; index--) {
+                n*=index
+            }
+        }
+        this.value =n
+        return this
     }
 }
